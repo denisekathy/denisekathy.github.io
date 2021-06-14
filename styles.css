@@ -9,8 +9,12 @@ body{
     background-position: center center;
     height: 100vh;
     font-family: 'Shadows Into Light Two', sans-serif;
-    color: white;
-    mix-blend-mode:hard-light;
+    color: blanchedalmond;
+    text-shadow: -1px 1px 2px #000,
+				  1px 1px 2px #000,
+				  1px -1px 0 #000,
+				  -1px -1px 0 #000;
+    /* mix-blend-mode:hard-light; */
     display: flex;
     flex-direction: column;
     align-items: center;
