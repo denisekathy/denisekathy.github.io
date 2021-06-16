@@ -7,7 +7,6 @@ const currentYear = new Date().getFullYear();
 
 const launchDate = new Date(`July 26 ${currentYear} 00:00:00`);
 
-//Update CountdownTime
 function updateCountdownTime() {
   const currentTime = new Date();
   const diff = launchDate - currentTime;
