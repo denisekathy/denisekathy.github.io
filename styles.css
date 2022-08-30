@@ -2,13 +2,24 @@
   box-sizing: border-box;
 }
 
+.wallpaper{
+  background-size:auto;
+  height:44rem;
+  width: 100%;
+}
+
 body {
-  background-image: url(https://images.unsplash.com/photo-1578677103277-409d1213df61?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1578&q=80);
-  background-repeat: no-repeat;
-  background-repeat: cover;
-  background-position: center center;
-  height: 100vh;
-  font-family: "Shadows Into Light Two", sans-serif;
+  /* background-image: url("../ctrldesktop.png"); */
+
+
+ 
+  /* https://images.unsplash.com/photo-1578677103277-409d1213df61?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1578&q=80 */
+
+ background-repeat:no-repeat; 
+
+  /* background-repeat: cover; */
+   background-position: center center;
+  /* height: 90vh; */
   color: blanchedalmond;
   text-shadow: -1px 1px 2px #000, 1px 1px 2px #000, 1px -1px 0 #000,
     -1px -1px 0 #000;
@@ -18,8 +29,11 @@ body {
   justify-content: center;
   text-align: center;
   margin: 0;
-  overflow: hidden;
+  overflow-x: hidden; 
+  overflow-y: hidden; 
 }
+
+
 
 h1 {
   font-weight: normal;
